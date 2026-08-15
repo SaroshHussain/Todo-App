@@ -1,16 +1,43 @@
-# React + Vite
+# 📝 Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple and responsive Todo App built with **React** and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+This project was created to practice React fundamentals such as state management, components, props, event handling, array methods, and browser localStorage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- ➕ Add new tasks
+- ✅ Mark tasks as completed
+- 🗑️ Delete tasks
+- 🔍 Filter tasks by:
+  - All
+  - Active
+  - Completed
+- 📊 Display remaining task count
+- 🧹 Clear all completed tasks
+- 💾 Save tasks using LocalStorage
+- 📱 Responsive design
+- 🎨 Clean and minimal UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the Oxlint configuration
+- React
+- JavaScript
+- Tailwind CSS
+- Vite
+- HTML
+- CSS
+- LocalStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── TodoForm.jsx
+│   ├── TodoItem.jsx
+│   └── TodoList.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
