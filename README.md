@@ -41,27 +41,11 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── index.css
-⚙️ Installation
 
-Clone the repository:
 
-git clone YOUR_REPOSITORY_URL
 
-Navigate to the project folder:
 
-cd todo-app
-
-Install dependencies:
-
-npm install
-
-Start the development server:
-
-npm run dev
-
-Open the local URL shown in your terminal.
-
-🧠 What I Learned
+## 🧠 What I Learned
 
 While building this project, I practiced:
 
@@ -77,7 +61,8 @@ Array and object manipulation
 LocalStorage
 Tailwind CSS
 Git and GitHub
-📌 Future Improvements
+
+## 📌 Future Improvements
 
 Some features I may add in the future:
 
@@ -88,7 +73,8 @@ Some features I may add in the future:
 🌙 Dark mode
 🔐 User authentication
 ☁️ Database storage
-👨‍💻 Author
+
+## 👨‍💻 Author
 
 Sarosh Hussain
 
@@ -96,19 +82,5 @@ Built as a learning project while practicing React and modern frontend developme
 
 
 
-### One small thing
 
 
-Replace:
-
-
-```text
-YOUR_REPOSITORY_URL
-
-with your actual GitHub repository URL.
-
-Then save the file and run:
-
-git add README.md
-git commit -m "Add README"
-git push
